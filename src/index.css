@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  background-color: rgb(88, 103, 88);
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  color: antiquewhite;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.logoBox.logos {
+  margin: 0;
+  padding: 1rem;
+  font-size: 5rem;
+  border-radius: 5px 5px;
+  font-weight: 500;
+}
+.slogan {
+  font-size: 2rem;
+}
+.Main {
+  display: flex;
+}
+
+.sideBar {
+  background-color: var(--sidebar);
+  width: 20%;
+  height: 100vh;
+}
+.sidebar-box {
+  padding-top: 1rem;
+}
+.todosof {
+  font-size: 1.5rem;
+}
+
+.todosOf_item {
+  font-size: 1.2rem;
+}
+.todosOf_item a {
+  text-decoration: none;
+}
+.todosof_items {
+  display: inline-block;
+  padding-top: 1rem;
+}
+.add-btn {
+  background-color: #52768b;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+a:hover {
+  background-color: rgb(114, 136, 99);
+}
+.todo-container {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.todoBox {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 25px;
+  left: auto;
+}
+
+.Today,
+.NextSeven,
+.AllTodos,
+.Status,
+.Completed,
+.Uncompleted,
+.TodoList {
+  min-width: 50%;
+  margin-bottom: 2rem;
+}
+.submit-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Modal {
+  z-index: 5000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(31, 28, 28);
+  height: 100%;
+  width: 100%;
+}
+.todoBox-container {
+  position: relative;
+}
+
+.Modal.modal-container {
+  background-color: blue;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 90%;
+  height: 85vh;
+  border-radius: 7px;
+}
+h1 {
+  color: rgb(15, 15, 15);
+}
+.text-center {
+  border-radius: 4.5px;
+  background-color: rgb(168, 168, 164);
+  height: 70%;
+}

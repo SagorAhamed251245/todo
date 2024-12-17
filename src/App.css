@@ -1,0 +1,17 @@
+  /* @import url( @https://fonts.google.com/knowledge/glossary/family_or_type_family_or_font_family);
+  @import url(https://fonts.googleapis.com/specimen/Open+Sans); */
+ :root{
+  --header:rgb(52, 77, 52);
+  --sidebar:rgb(218, 211, 211);
+  --cyan:rgb(47, 61, 47);
+ 
+ } 
+*
+*
+::afterS
+::before{
+  margin:0 ;
+  padding:0 ;
+  box-sizing: border-box;
+
+}
